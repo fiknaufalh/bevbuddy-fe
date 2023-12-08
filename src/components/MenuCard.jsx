@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { FaShoppingCart } from "react-icons/fa";
 import Modal from "react-modal";
 
 const MenuCard = (props) => {

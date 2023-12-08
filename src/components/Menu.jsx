@@ -1,5 +1,5 @@
 import { useState } from "react";
-import MenuCard from "../layouts/MenuCard";
+import MenuCard from "./MenuCard";
 import axios from "axios";
 
 const Menu = () => {
@@ -174,7 +174,7 @@ const Menu = () => {
 						<p>No recommendation found</p>
 					</div>
 				) : (
-					<div className="min-h-screen flex flex-col justify-center lg:px-16 px-5 bg-backgroundColor">
+					<div className="min-h-screen flex flex-col justify-start lg:px-16 px-5 bg-backgroundColor">
 						<div className="flex flex-wrap pb-8 gap-8 mt-8 justify-center">
 							{recommendationData.map((beverage) => (
 								<MenuCard
